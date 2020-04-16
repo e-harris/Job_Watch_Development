@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/bionic64"
-  config.vm.synched_folder "~/code/CD_project/app", "/home/ubuntu/"
-  config.vm.provision "shell", "~/code/CD_project/development/environment/provision.sh"
+  config.vm.synced_folder "~/code/CD_project/app", "/home/ubuntu/app"
+  config.vm.provision "shell", path: "~/code/CD_project/development/environment/provision.sh"
 
 end
