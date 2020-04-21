@@ -26,12 +26,3 @@ cd /home/ubuntu/downloads
 cd /home/ubuntu/app
 python3 -m pytest tests/
 ```
-:taco:
-<<<<<<< HEAD
-=======
-:taco:
-:taco:
-:taco:
-:taco:
-:taco:
->>>>>>> 9ede4c6fb8601ccd06aff9c38d6551b50269a5a8
