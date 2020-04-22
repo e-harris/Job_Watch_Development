@@ -34,6 +34,9 @@
   }],
   "provisioners": [
     {
+      "type": "shell",
+      "inline": "CHEF_LICENSE=accept"
+    },{
       "type": "chef-solo",
       "cookbook_paths": ["./berks-cookbooks"],
       "run_list": ["testing_cookbook::default"]
